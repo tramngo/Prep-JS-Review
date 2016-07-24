@@ -8,21 +8,49 @@ Go get em!*/
 /*1.  Variables with a String as their value.
 Declare variables named yourName, neighborName, teacherName.  Console log each variable.*/
 
+var yourName = "Tram";
+console.log(yourName);
+
+var neighborName = "Jane";
+console.log(neighborName);
+
+var teacherName = "Vic";
+console.log(teacherName);
+
 
 /*2. Variable with a Number as their value.
 Declare variables named numberOfFloorsBurjKhalifa, TokyoOlympicsYear.  Console log each variable.*/
 
+var numberOfFloorsBurjKhalifa = "154";
+var TokyoOlympicsYear = "2020";
+console.log(numberOfFloorsBurjKhalifa,TokyoOlympicsYear);
+
+
 /*3. Variables with Boolean values
 Declare variables named lovesPrepClass, eatsDonuts, drinksGin.  Console log each variable.*/
 
+var lovesPrepClass = true;
+var eatsDonuts = true;
+var drinksGin = false; 
+console.log(lovesPrepClass,eatsDonuts,drinksGin); 
+
 /*4. Variable with Null values
 Declare variables named completedCodingChallenge, traveledToSpace.  Console log each variable*/
+
+var completedCodingChallenge = null;
+var traveledToSpace = null;
+console.log(completedCodingChallenge,traveledToSpace);
+
 
 /*5.  Variables with Array for its value.
 Declare a variable named japanPrefectures and assign the value of the names of 5 prefectures in Japan.
 Console log the variable 
 Console log the value at index 1.
 Console log the value at index 3.*/
+
+var japanPrefectures = ["Okinawa","Kyoto","Tokyo","Nagasaki","Hiroshima"];
+console.log(japanPrefectures[1]);
+console.log(japanPrefectures[3]);
 
 
 /*6.  Variable with Array for its value.
@@ -31,9 +59,18 @@ Console log the variable
 Console log "Earth" using the index position
 Console log "Uranus" using the index position*/
 
+var planets = ["Mercury","Venus","Earth","Mars","Jupiter","Saturn","Uranus","Neptune"];
+console.log(planets[3]);
+console.log(planets[7]);
+
+
 /*7. Variables with Array for its value.
 Declare a variable named india and assign the value of 3 popular tourist attractions.  
 Console log the variable.*/
+
+var india = ["Taj Mahal","Ganges","Qutb Minar"];
+console.log(india);
+
 
 /*8.  Declare a literal object named "hotel" with properties and values set to:
 
@@ -44,6 +81,14 @@ Console log the variable.*/
 
  console log the object*/
 
+var hotel = {
+  name: "Hilton",
+  rooms:200,
+  pool:true,
+  checkIn: null
+};
+console.log(hotel);
+
 /*9.  Declare a literal object named "car" with properties and values set to:
 
     make  => "BMW"
@@ -52,6 +97,14 @@ Console log the variable.*/
     doors => 4
 
  console log the object*/
+
+var car = {
+  make: "BMW",
+  model: "X5",
+  year: 2015,
+  doors: 4,
+};
+console.log(car);
 
 /*10.  Declare a literal object named bigBox and set its value to be an empty object.
 
